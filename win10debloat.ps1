@@ -2039,7 +2039,7 @@ function UninstallThirdPartyBloat {
 	Get-AppxPackage "D52A8D61.FarmVille2CountryEscape" | Remove-AppxPackage
 	Get-AppxPackage "D5EA27B7.Duolingo-LearnLanguagesforFree" | Remove-AppxPackage
 	Get-AppxPackage "DB6EA5DB.CyberLinkMediaSuiteEssentials" | Remove-AppxPackage
-	Get-AppxPackage "DolbyLaboratories.DolbyAccess" | Remove-AppxPackage
+	# Get-AppxPackage "DolbyLaboratories.DolbyAccess" | Remove-AppxPackage
 	Get-AppxPackage "Drawboard.DrawboardPDF" | Remove-AppxPackage
 	Get-AppxPackage "Facebook.Facebook" | Remove-AppxPackage
 	Get-AppxPackage "flaregamesGmbH.RoyalRevolt2" | Remove-AppxPackage
@@ -2048,7 +2048,7 @@ function UninstallThirdPartyBloat {
 	Get-AppxPackage "king.com.BubbleWitch3Saga" | Remove-AppxPackage
 	Get-AppxPackage "king.com.CandyCrushSodaSaga" | Remove-AppxPackage
 	Get-AppxPackage "PandoraMediaInc.29680B314EFC2" | Remove-AppxPackage
-	Get-AppxPackage "SpotifyAB.SpotifyMusic" | Remove-AppxPackage
+	# Get-AppxPackage "SpotifyAB.SpotifyMusic" | Remove-AppxPackage
 	Get-AppxPackage "WinZipComputing.WinZipUniversal" | Remove-AppxPackage
 	Get-AppxPackage "XINGAG.XING" | Remove-AppxPackage
 }
